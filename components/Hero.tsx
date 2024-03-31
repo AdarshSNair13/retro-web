@@ -4,7 +4,7 @@ const Hero = () => {
     bg-[url('../public/images/bg.webp')]
     md:bg-none
     xl:bg-[url('../public/images/bg.webp')]">
-    <div className="bg-[#72e2ff] mt-12 py-12 flex items-center justify-center border-4 border-black drop-shadow-md rounded-2xl">
+    <div className="bg-[#72e2ff] mt-12 py-24 flex items-center justify-center border-4 border-black drop-shadow-md rounded-2xl bg-cover bg-no-repeat "  style={{ backgroundImage: "url('/bg1.svg')" }}>
       <div className="flex flex-col items-center">
         <h1 className="font-bold drop-shadow-md-custom text-center text-5xl uppercase leading-tight md:text-8xl 2xl:text-9xl text-black">
           Hi I&apos;am

@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
       <div className="px-5 py-14 md:px-10 md:py-24 2xl:px-5 bg-[url('../public/images/bg.webp')] bg-no-repeat bg-cover bg-center md:bg-none xl:bg-[url('../public/images/bg.webp')]">
-        <div className="bg-[#f84d72] mt-12 py-12 text-center border-4 border-black drop-shadow-md rounded-2xl">
+        <div className="bg-[#f84d72] mt-12 py-12 text-center border-4 border-black drop-shadow-md rounded-2xl bg-cover bg-no-repeat "  style={{ backgroundImage: "url('/bg2.svg')" }}>
           <h1 className="uppercase text-5xl md:text-7xl text-center text-white text-outline drop-shadow-md font-bold">
             See my latest work
           </h1>

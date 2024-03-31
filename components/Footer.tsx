@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="relative overflow-hidden">
     <Marquee/>
-    <section className="bg-[#72e2ff] sm:px-16 px-8 sm:py-24 py-12">
+    <section className="bg-[#72e2ff] sm:px-16 px-8 sm:py-24 py-12 bg-cover bg-no-repeat "  style={{ backgroundImage: "url('/bg1.svg')" }}>
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
       <Link href="/">
       <h1 className="text-3xl font-bold text-gray-900 drop-shadow-md">
