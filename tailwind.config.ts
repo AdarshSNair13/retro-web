@@ -12,6 +12,7 @@ const config: Config = {
         'custom-gray': '#2a2a2a',
         customGreen: 'rgb(178, 255, 68)',
         blue:'rgb(159, 215, 250)',
+        'yellow-neon': 'rgb(206 252 23)',
       },
       animation: {
         marquee: 'marquee 25s linear infinite',

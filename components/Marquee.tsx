@@ -9,7 +9,7 @@ const Marquee: React.FC = () => {
   ));
 
   return (
-    <div className="flex h-[7rem] items-center overflow-hidden border-t-2 border-b-2 border-neutral-900 bg-customGreen ">
+    <div className="flex h-[7rem] items-center overflow-hidden border-4 border-neutral-900 bg-customGreen ">
       <div className="py-12 animate-marquee whitespace-nowrap">
         {spans}
       </div>
