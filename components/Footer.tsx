@@ -1,10 +1,11 @@
 import { socials } from "../constants";
 import Link from "next/link";
-import Image from "next/image";
+import Marquee from "./Marquee";
 
 const Footer = () => {
   return (
-    <>
+    <div className="relative overflow-hidden">
+    <Marquee/>
     <section className="bg-[#f1f1f1] mt-10 sm:px-16 px-8 sm:py-24 py-12">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
       <Link href="/">
@@ -38,7 +39,7 @@ const Footer = () => {
         <p className="caption text-[#000000] lg:block"> © {new Date().getFullYear()}.Adarsh. All rights reserved. </p>
     </div>
     </section>
-    </>
+    </div>
   );
 };
 
