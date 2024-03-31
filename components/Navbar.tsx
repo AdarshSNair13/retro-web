@@ -44,13 +44,21 @@ const Navbar = () => {
         </a>
       </div>
       {/* Mobile Button */}
-      <div onClick={handleNav} className="block sm:hidden z-10">
-        {nav ? (
+      {/* <div onClick={handleNav} className="block sm:hidden z-10"> */}
+        {/* {nav ? (
           <AiOutlineClose size={30}  />
         ) : (
           <AiOutlineMenu size={30} />
-        )}
+        )} */}
+        <div className="flex items-center justify-center  sm:hidden z-10">
+        <a
+          className="uppercase hover:no-underline transition-all hover:scale-105 border-black border drop-shadow-solid rounded-full px-8 py-4 bg-customGreen font-semibold drop-shadow-md-custom"
+          href="https://wa.me/919895585574"
+        >
+          Let&apos;s chat
+        </a>
       </div>
+      {/* </div> */}
       {/* Mobile Menu */}
     </nav>
   );
