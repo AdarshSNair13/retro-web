@@ -40,7 +40,7 @@ const Navbar = () => {
           className="uppercase hover:no-underline transition-all hover:scale-105 border-black border drop-shadow-solid rounded-full px-8 py-4 bg-customGreen font-semibold drop-shadow-md-custom"
           href="https://wa.me/919895585574"
         >
-          Let's chat
+          Let&apos;s chat
         </a>
       </div>
       {/* Mobile Button */}

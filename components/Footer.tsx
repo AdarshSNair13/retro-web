@@ -1,6 +1,7 @@
 import { socials } from "../constants";
 import Link from "next/link";
 import Marquee from "./Marquee";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
               target="_blank"
               className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
             >
-              <img src={item.iconUrl} width={16} height={16} alt={item.title} />
+              <Image src={item.iconUrl} width={16} height={16} alt={item.title} />
             </a>
           ))}
         </ul>
