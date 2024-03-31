@@ -22,7 +22,7 @@ const Navbar = () => {
           className="regular-16 text-[#000000] font-semibold flex items-center justify-center cursor-pointer pb-1.5 uppercase relative"
         >
           Home
-          <div className="absolute ml-1 h-2 w-2 rounded-full bg-green-300 bottom-0" />
+          <div className="absolute ml-1 h-2 w-2 rounded-full bg-pink-600 bottom-0" />
         </Link>
         {NAV_LINKS.map((link) => (
           <Link

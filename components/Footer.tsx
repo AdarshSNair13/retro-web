@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <div className="relative overflow-hidden">
     <Marquee/>
-    <section className="bg-[#f1f1f1] mt-10 sm:px-16 px-8 sm:py-24 py-12">
+    <section className="bg-[#72e2ff] sm:px-16 px-8 sm:py-24 py-12">
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
       <Link href="/">
-        <h1 className="text-3xl font-semibold text-gray-900">
+      <h1 className="text-3xl font-bold text-gray-900 drop-shadow-md">
           ADARSH <span className="text-customGreen">S</span>
         </h1>
       </Link>
