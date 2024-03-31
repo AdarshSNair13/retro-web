@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drop-shadow-md-custom {
+  filter: drop-shadow(3px 3px theme('colors.custom-gray'));
+}
+.drop-shadow-solid-extend {
+  filter: drop-shadow(4px 4px #2a2a2a);
+}
