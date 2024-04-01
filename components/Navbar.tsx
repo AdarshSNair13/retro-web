@@ -1,5 +1,4 @@
 "use client";
-import { useScroll } from "@/common/useScroll";
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,20 +10,9 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  const { scrollY, scrollX, scrollDirection } = useScroll();  
-  const styles = {
-    active: {
-      visibility: "visible",
-      transition: "all 0.5s"
-    },
-    hidden: {
-      visibility: "hidden",
-      transition: "all 0.5s",
-      transform: "translateY(-100%)"
-    }
-  }
+
   return (
-    <nav className="right-0 left-0 flex items-center justify-between mx-auto px-6 lg:px-20 3xl:px-0 fixed z-30 py-5 top-0 backdrop-blur-md border-b-4 border-black border-solid bg-[#72e2ff] overflow-hidden" style={{ visibility: scrollDirection === "down" ? "visible" : "hidden", transition: "all 0.5s", transform: scrollDirection === "down" ? "none" : "translateY(-100%)" }}>
+    <nav className="right-0 left-0 flex items-center justify-between mx-auto px-6 lg:px-20 3xl:px-0 fixed z-30 py-5 top-0 backdrop-blur-md border-b-4 border-black border-solid bg-[#72e2ff] overflow-hidden">
       <Link href="/">
         {/* <h1 className="text-3xl font-bold text-gray-900 drop-shadow-md">
           ADARSH <span className="text-customGreen">S</span>
