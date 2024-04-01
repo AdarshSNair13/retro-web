@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
     <Hero/>
-    {/* <Skills/> */}
+    <Skills/>
     <Projects/>
     </>
   )

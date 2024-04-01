@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <div className="px-5 py-14 md:px-10 md:py-24 2xl:px-5 bg-no-repeat bg-cover bg-center
@@ -23,6 +25,9 @@ const Hero = () => {
         >
           Read More
         </a>
+        <div className="relative col-span-5 col-start-8 mt-10 sm:mt-14 lg:mt-0 py-10">
+        <div className="rounded-t-[20.625rem] border-4 border-black shadow-2xl transition-shadow"><img alt="profile Pic" width="960" height="1160" decoding="async" data-nimg="1" className="rounded-t-[20.625rem]" sizes="100vw" src ="/1.png"  style={{ color: 'transparent', width: '100%', height: 'auto' }}/></div>
+      </div>
       </div>
     </div>
   </div>
