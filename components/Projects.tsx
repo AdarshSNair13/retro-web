@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="px-5 py-14 md:px-10 md:py-24 2xl:px-5 bg-[url('../public/images/bg.webp')] bg-no-repeat bg-cover bg-center md:bg-none xl:bg-[url('../public/images/bg.webp')]">
+    <div className="px-5 py-5 md:px-10 2xl:px-5 bg-[url('../public/images/bg.webp')] bg-no-repeat bg-cover bg-center md:bg-none xl:bg-[url('../public/images/bg.webp')]">
       <div
         className="bg-[#f84d72] mt-12 py-12 text-center border-4 border-black drop-shadow-md rounded-2xl bg-cover bg-no-repeat "
         style={{ backgroundImage: "url('/bg2.svg')" }}

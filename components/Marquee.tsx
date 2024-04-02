@@ -11,7 +11,7 @@ const Marquee: React.FC = () => {
     ));
 
   return (
-    <div className="flex h-[7rem] items-center overflow-hidden border-4 border-neutral-900 bg-customGreen ">
+    <div className="flex h-[7rem] items-center overflow-hidden border-4 border-neutral-900 bg-customGreen py-5">
       <div className="py-12 animate-marquee whitespace-nowrap">{spans}</div>
       <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
         {spans}

@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="right-0 left-0 flex items-center justify-between mx-auto px-6 lg:px-20 3xl:px-0 fixed z-30 py-5 top-0 backdrop-blur-md border-b-4 border-black border-solid bg-[#72e2ff] overflow-hidden">
+    <nav className="right-0 left-0 flex items-center justify-between mx-auto px-6 lg:px-20 3xl:px-0 z-30 py-5 top-0 backdrop-blur-md border-b-4 border-black border-solid bg-[#72e2ff] overflow-hidden fixed md:absolute">
       <Link href="/">
         {/* <h1 className="text-3xl font-bold text-gray-900 drop-shadow-md">
           ADARSH <span className="text-customGreen">S</span>

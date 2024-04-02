@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div
-      className="px-5 py-14 md:px-10 md:py-24 2xl:px-5 bg-no-repeat bg-cover bg-center
+      className="px-5 py-24 md:px-10 2xl:px-5 bg-no-repeat bg-cover bg-center
     bg-[url('../public/images/bg.webp')]
     md:bg-none
     xl:bg-[url('../public/images/bg.webp')]"
@@ -25,7 +25,7 @@ const Hero = () => {
             and Web Performance.
           </p>
           <a
-            className="uppercase hover:no-underline transition-all hover:scale-105 border-black border drop-shadow-solid rounded-full px-8 py-4  mt-8  bg-customGreen font-semibold drop-shadow-md-custom"
+            className="uppercase hover:no-underline transition-all hover:scale-105 border-black border drop-shadow-solid rounded-full px-8 py-4 mt-8  bg-customGreen font-semibold drop-shadow-md-custom"
             href=""
           >
             Read More
@@ -44,45 +44,15 @@ const Hero = () => {
                 style={{ color: "transparent", width: "100%", height: "auto" }}
               />
               <div className="animate-firstCursor absolute bottom-72 sm:-left-10 sm:bottom-96">
-                <div className="absolute -right-4 -top-4 lg:-right-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="13"
-                    height="15"
-                    fill="none"
-                  >
-                    <path
-                      fill="#763EFC"
-                      stroke="#111"
-                      stroke-linejoin="round"
-                      d="M12 1 1 7.5 6.5 9l3 5.5L12 1Z"
-                    ></path>
-                  </svg>
-                </div>
-                <div className="whitespace-nowrap bg-customGreen px-5 py-2 text-left">
-                  <p className="text-sm font-medium text-black">
+                <div className="whitespace-nowrap bg-[#f84d72] px-5 py-2 text-left">
+                  <p className="text-sm font-medium text-[#ffffff]">
                     Front-end Developer
                   </p>
                 </div>
               </div>
               <div className="animate animate-secondCursor sm:animate-greenCursor absolute bottom-8 right-12 sm:bottom-28 sm:right-12">
-                <div className="absolute -left-4 -top-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="13"
-                    fill="none"
-                  >
-                    <path
-                      fill="rgb(178, 255, 68)"
-                      stroke="#111"
-                      stroke-linejoin="round"
-                      d="m1 1 6.5 11L9 6.5l5.5-3z"
-                    ></path>
-                  </svg>
-                </div>
-                <div className="whitespace-nowrap bg-customGreen px-2 py-2">
-                  <p className="text-sm font-medium text-neutral-900">
+                <div className="whitespace-nowrap bg-[#f84d72] px-2 py-2">
+                  <p className="text-sm font-medium text-[#ffffff]">
                     Ui/Ux Designer
                   </p>
                 </div>

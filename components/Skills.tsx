@@ -3,7 +3,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <div
-      className="px-5 bg-no-repeat bg-cover bg-center
+      className="px-5 py-5 bg-no-repeat bg-cover bg-center
     bg-[url('../public/images/bg.webp')]
     xl:bg-[url('../public/images/bg.webp')]"
     >
