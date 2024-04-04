@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
           <a
             className="uppercase hover:no-underline transition-all hover:scale-105 border-black border drop-shadow-solid rounded-full px-8 py-4 mt-8  bg-customGreen font-semibold drop-shadow-md-custom"
-            href=""
+            href="/about"
           >
             Read More
           </a>

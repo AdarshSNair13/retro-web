@@ -21,7 +21,7 @@ const Navbar = () => {
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         <Link
-          href=""
+          href="/"
           className="regular-16 text-[#000000] font-semibold flex items-center justify-center cursor-pointer pb-1.5 uppercase relative"
         >
           Home
